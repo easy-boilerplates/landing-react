@@ -1,0 +1,22 @@
+{
+  "logo": {
+    "ru": "React",
+    "en": "React"
+  },
+  "nav.repositories": {
+    "ru": "Репозитории",
+    "en": "Repositories"
+  },
+  "nav.projects": {
+    "ru": "Проекты",
+    "en": "Projects"
+  },
+  "nav.companies": {
+    "ru": "Компании",
+    "en": "Companies"
+  },
+  "repositories.title": {
+    "ru": "Топ JavaScript репозиторий",
+    "en": "Top JavaScript repositories"
+  }
+}

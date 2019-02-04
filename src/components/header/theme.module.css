@@ -1,0 +1,42 @@
+@import 'vars.css';
+
+.header {
+  font-weight: 500;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 6rem;
+
+  @mixin container;
+}
+
+.logo {
+  height: 5rem;
+  width: 5rem;
+  @mixin icon-react #4b87d4;
+}
+
+.list {
+  display: flex;
+  @mixin list;
+
+  & .item {
+    &:not(:last-child) {
+      margin-right: 4rem;
+    }
+
+    & .link {
+      color: var(--primary-color);
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

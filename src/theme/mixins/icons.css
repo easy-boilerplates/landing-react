@@ -1,0 +1,12 @@
+@define-mixin icon-react $color: #53c1de {
+  @svg-load react url(icons/react.svg) {
+    path:nth-child(odd) {
+      fill: #fff;
+    }
+    path:nth-child(even) {
+      fill: $color;
+    }
+  }
+  background: svg-inline(react) 50% 50% no-repeat;
+  background-size: cover;
+}

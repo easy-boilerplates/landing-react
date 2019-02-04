@@ -1,0 +1,38 @@
+{
+  "extends": [
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "react-app",
+    "prettier"
+  ],
+  "rules": {
+    "jsx-quotes": [
+      1,
+      "prefer-double"
+    ],
+    "import/order": [
+      "error",
+      {
+        "newlines-between": "never"
+      }
+    ],
+    "import/no-duplicates": ["error", { "includeExports": true }],
+    "import/no-unresolved": ["error"]
+    
+  },
+  "plugins": [
+    "prettier",
+    "import"
+  ],
+  "settings": {
+  "import/resolver": {
+    "node": {
+      "paths": ["src", "locales"],
+      "extensions": [
+        ".js",
+        ".jsx"
+      ]
+    }
+  }
+}
+}
