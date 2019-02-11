@@ -3,6 +3,14 @@
     "ru": "React",
     "en": "React"
   },
+  "seo.title": {
+    "ru": "Лендинг Тайтл",
+    "en": "Landing Title"
+  },
+  "seo.description": {
+    "ru": "Лендинг Дескрипшен",
+    "en": "Landing Description"
+  },
   "nav.repositories": {
     "ru": "Репозитории",
     "en": "Repositories"

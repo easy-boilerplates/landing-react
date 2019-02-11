@@ -35,6 +35,7 @@
     "postcss-inline-svg": "^3.1.1",
     "postcss-mixins": "^6.2.1",
     "postcss-svgo": "^4.0.1",
-    "prettier": "^1.16.1"
+    "prettier": "^1.16.1",
+    "react-helmet": "^5.2.0"
   }
 }

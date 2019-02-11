@@ -6,6 +6,7 @@ Template with minimal functional and examples for create Landing Pages on React
 
 * Сomfortable Folder structure
 * Localization (in json - src/locales)
+* Customized client seo tags (title, description)
 * CSSModules + PostCSS (https://preset-env.cssdb.org/features):
   * Custom Properties
   * Nesting
@@ -31,7 +32,7 @@ npm run build
 
 ## Errors
 
-If you have error (https://github.com/ostcss/postcss-cli/issues/265)
+If you have error (https://github.com/postcss/postcss-cli/issues/265)
 ```bash
 TypeError: Expected `cwd` to be of type `string` but received type `undefined`
 ```
